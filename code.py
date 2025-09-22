@@ -123,3 +123,13 @@ if (game2 == 'yes'):
             elif (guesses == 0 and score < 3):
                 print ("You don't have great luck")
 
+if (score >= 3):
+    game3 = input('Do you want to play game 3?: ')
+
+if (game3 == 'no'):
+    print ('Click clear to restart')
+else:
+    score = 0
+    guesses = 10
+    words = []
+    randomWord = random.choice(words)
