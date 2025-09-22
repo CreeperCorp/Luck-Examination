@@ -11,6 +11,7 @@ if (diceRolls >= 12):
                 diceRollsScore = -1000000
                 
 game2 = 'no'
+game3 = 'no'
 
 leastFavorite = int(input('What is your least favorite number? (Input an integer): '))
 if (leastFavorite >= 10):
@@ -112,14 +113,13 @@ if (game2 == 'yes'):
                     print (f'The number was {randomNum}')
             if (guesses == 0 and score == 10):
                 print ('Dang')
-                print ('Game 3 coming soon! (You need atleast a 3 to access it)')
             
             elif (guesses == 0 and score >= 5):
                 print ('Good Job, you have amazing luck')
-                print ('Game 3 coming soon!')
-             
+                
             elif (guesses == 0 and score >= 3):
                 print ('Good job, you have moderate luck')
-                print ('Game 3 coming soon!')
+                
             elif (guesses == 0 and score < 3):
                 print ("You don't have great luck")
+
