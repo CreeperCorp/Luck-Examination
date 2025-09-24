@@ -89,11 +89,12 @@ void main() {
 
   if (totalRoll == leastFavorite) {
     print('That Sucks');
+    score = 0;
   } else if (roll == leastFavorite) {
     print('Close Enough');
     score52 = score9 + totalRoll;
     score30 = score52 ~/ diceRolls;
-    score = score30 + score81
+    score = score30 + score81;
   } else {
     score52 = score9 + totalRoll;
     score30 = score52 - diceRolls;
