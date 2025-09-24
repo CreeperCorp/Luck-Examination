@@ -156,3 +156,15 @@ if (game2 === 'no') {
         }
     }
 }
+
+if (game2 === 'yes' && score2 >= 3) {
+    const game3 = prompt('Do you want to play game 3?: ');
+
+    if (game3 === 'no') {
+        console.log('Click clear to restart');
+    } else {
+        console.log('Get ready for hardcore wordle');
+        let score3 = 0;
+        let guesses = 14;
+    }
+}
